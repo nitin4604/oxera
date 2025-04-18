@@ -1,70 +1,51 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oxera - Pet Products</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="hero">
-        <h1>Welcome to Oxera</h1>
-        <p>Your One-Stop Pet Product Destination 🐾</p>
-    </header>
-
-    <nav class="navbar">
-        <a href="#dog">Dog</a>
-        <a href="#cat">Cat</a>
-        <a href="#bird">Bird</a>
-    </nav>
-
-    <section id="categories">
-        <h2>Our Categories</h2>
-        <div class="cards">
-            <div class="card" id="dog">
-                <img src="https://via.placeholder.com/300x180?text=Dog+Products" alt="Dog Products">
-                <h3>Dog Products</h3>
-                <p>High-quality food and accessories for your loyal companions.</p>
-            </div>
-            <div class="card" id="cat">
-                <img src="https://via.placeholder.com/300x180?text=Cat+Products" alt="Cat Products">
-                <h3>Cat Products</h3>
-                <p>Fun toys and healthy treats to keep your cats happy and active.</p>
-            </div>
-            <div class="card" id="bird">
-                <img src="https://via.placeholder.com/300x180?text=Bird+Food" alt="Bird Food">
-                <h3>Bird Food</h3>
-                <p>Nutritious food for budgies, parrots, and other feathered friends.</p>
-            </div>
+<section class="hero">
+    <div class="hero-container">
+      <img src="placeholder-banner.jpg" alt="Pet Products" class="hero-image">
+      <div class="hero-text">
+        <h1>Your Pet’s Best Friend!</h1>
+        <a href="#shop" class="cta-btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+  <section id="shop" class="product-grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 product-card">
+          <img src="placeholder-product.jpg" alt="Product Name" class="product-image">
+          <h3>Product Name</h3>
+          <p>$19.99</p>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
-    </section>
-
-    <section class="why-oxera">
-        <h2>Why Choose Oxera?</h2>
-        <ul>
-            <li>✔️ Trusted by pet lovers</li>
-            <li>✔️ Quality assurance guaranteed</li>
-            <li>✔️ Affordable and reliable products</li>
-        </ul>
-    </section>
-
-    <section class="testimonials">
-        <h2>What Our Customers Say</h2>
-        <blockquote>“Oxera products are amazing! My dog loves them.”</blockquote>
-        <blockquote>“Fast delivery and great quality for my parrots!”</blockquote>
-    </section>
-
-    <footer>
-        <p>Follow us:</p>
-        <div class="socials">
-            <a href="#">Instagram</a> |
-            <a href="#">Facebook</a> |
-            <a href="#">YouTube</a>
+        <!-- Repeat for more products -->
+      </div>
+    </div>
+  </section>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="#">Oxera</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Contact Us</h5>
+          <p>Email: contact@oxera.com</p>
+          <p>WhatsApp: +123456789</p>
         </div>
-        <p>© 2025 Oxera | Designed with ❤️ by Nitin</p>
-    </footer>
-
-    <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">💬</a>
-</body>
-</html>
+        <div class="col-md-6">
+          <h5>Follow Us</h5>
+          <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+        
